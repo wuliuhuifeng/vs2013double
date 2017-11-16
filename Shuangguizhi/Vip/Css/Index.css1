@@ -1,0 +1,71 @@
+@charset "gb2312";
+body,td,th {
+	font-size: 12px;
+	color: #000000;
+}
+body {
+	margin: 0px;
+}
+#Top {
+	background-color: #F3F3F3;
+	height: 50px;
+	width: 820px;
+	font-size: 20px;
+	text-align: left;
+	line-height: 25px;
+}
+#Con {
+	width: 820px;
+}
+#Con #Left {
+	float: left;
+	height: 320px;
+	width: 165px;
+	position: relative;
+	background-color: #E3E3E3;
+	line-height:30px;
+	letter-spacing: 2px;
+}
+#Con #Right {
+	float: right;
+	width: 600px;
+	position: relative;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+#Bottom {
+	background-color: #F3F3F3;
+	height: 50px;
+	width: 820px;
+}
+a:link {
+	text-decoration:none;
+	color: #000000;
+}
+a:visited {
+	text-decoration:none;
+	color: #000000;
+}
+a:hover {
+	background-color: #E3E3E3;
+	border: 4px double #CCCCCC;
+	font-weight: bold;
+	color: #FF0000;
+}
+a:active {
+	text-decoration:none;
+	color: #999999;
+}
+.Tiao {
+	float: left;
+	height: 28px;
+	width: 165px;
+	position: relative;
+	text-align: left;
+	margin-left:6px;
+	margin-top:5px;
+}

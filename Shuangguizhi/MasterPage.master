@@ -1,0 +1,61 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage, App_Web_xut1gbbx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<%--<title><%=webconfig.Name %></title>--%>
+<LINK rel=stylesheet type=text/css href="images/main.css">
+<asp:ContentPlaceHolder id="head" runat="server">
+</asp:ContentPlaceHolder>
+</head>
+<body>
+<form id="form1" runat="server">
+<!--<div id=body>
+<div id=container>
+
+<!--<div id=head>
+<table width=100% cellpadding=0 cellspacing=0>
+<tr><td width=532><img src="images/logo.jpg" /></td>
+<td id=fav>
+<IMG height=8 src="images/arrow01.jpg" width=9><A onclick="var strHref=window.location.href;this.style.behavior='url(#default#homepage)';this.setHomePage('http://<%=Request.Url.Host %>');" href="#">设为首页</A>
+<IMG height=9 src="images/arrow02.jpg" width=11><A href="javascript:window.external.addFavorite(window.location.href,'<%=webconfig.Name %>')">加入收藏</A>
+<%--<IMG height=8 src="images/arrow01.jpg" width=9><a href='/vip/'>会员登陆</a>--%>
+</td></tr>
+</table>
+</div>-->
+
+<table width=100% cellpadding=0 cellspacing=0>
+<tr><td id=nav valign=middle>
+<li id=home><a href='/'>网站首页</a></li>
+<%=sb.ToString() %>
+</td></tr>
+</table>
+
+<!--<div id=banner>
+<OBJECT codeBase="swflash.cab#version=9,0,28,0" classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000 width=980 height=260>
+<PARAM NAME="movie" VALUE="images/banner.swf">
+<PARAM NAME="quality" VALUE="high">
+<PARAM NAME="wmode" VALUE="opaque">
+<embed src="flash/banner.swf" quality="high" wmode="opaque" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="980" height="260"></embed>  
+</OBJECT>
+</div>
+
+<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+</asp:ContentPlaceHolder>
+ <table width=100% cellpadding=0 cellspacing=0>
+ <tr><td height=8></td></tr>
+ <tr><td id=foot valign=middle>
+<a href='/' id=home>网站首页</a>
+<%=sb1.ToString() %>
+ </td></tr>
+ <tr><td height=60 valign=middle align=center>
+<%=webconfig.Foot %>
+ </td></tr>
+ </table>
+</div>
+</div>-->
+</form>
+</body>
+</html>

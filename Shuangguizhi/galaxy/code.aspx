@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="admin_code, App_Web_xptb_qd5" %>

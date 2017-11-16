@@ -1,0 +1,75 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #97a1ad; FONT-SIZE: 9pt; SCROLLBAR-HIGHLIGHT-COLOR: #f5f9ff; SCROLLBAR-SHADOW-COLOR: #828282; SCROLLBAR-3DLIGHT-COLOR: #828282; SCROLLBAR-ARROW-COLOR: #797979; SCROLLBAR-TRACK-COLOR: #ffffff; FONT-FAMILY: 宋体; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+A:link {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 9pt; COLOR: #6a6e6d; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 9pt; COLOR: #038fdc; TEXT-DECORATION: underline
+}
+A:active {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A.white:link {
+	FONT-SIZE: 9pt; COLOR: #6a6e6d; TEXT-DECORATION: none
+}
+A.white:visited {
+	FONT-SIZE: 9pt; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.white:hover {
+	FONT-SIZE: 9pt; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+A.white:active {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A.blue:link {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A.blue:visited {
+	FONT-SIZE: 9pt; COLOR: #0066cc; TEXT-DECORATION: none
+}
+A.blue:hover {
+	FONT-SIZE: 9pt; COLOR: #0153a4; TEXT-DECORATION: underline
+}
+A.blue:active {
+	FONT-SIZE: 9pt; COLOR: #0153a4; TEXT-DECORATION: none
+}
+TABLE {
+	FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: 150%; FONT-FAMILY: "宋体"
+}
+TABLE.Mtable3 TD {
+	BORDER-RIGHT: #000000 0px solid; BORDER-TOP: #ffffff 0px solid; BORDER-LEFT: #000000 0px solid; BORDER-BOTTOM: #425d8c 1px solid
+}
+TABLE.Mtable2 TD {
+	BORDER-RIGHT: #000000 0px solid; BORDER-TOP: #ffffff 0px solid; BORDER-LEFT: #000000 0px solid; BORDER-BOTTOM: #425d8c 0px solid
+}
+.list {
+	FONT-SIZE: 12px; COLOR: #6a6e6d; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #ffffff
+}
+.textboxLINE_1 {
+	BORDER-RIGHT: #adb6b5 1px double; BORDER-TOP: #adb6b5 1px double; BORDER-LEFT: #adb6b5 1px double; BORDER-BOTTOM: #adb6b5 1px double; BACKGROUND-COLOR: #e8e8e8
+}
+.textbox {
+	BORDER-RIGHT: #b4b4b4 1px double; BORDER-TOP: #b4b4b4 1px double; BORDER-LEFT: #b4b4b4 1px double; BORDER-BOTTOM: #b4b4b4 1px double; BACKGROUND-COLOR: #ffffff
+}
+.textboxLINE {
+	BORDER-RIGHT: #9ad3f5 1px double; BORDER-TOP: #9ad3f5 1px double; BORDER-LEFT: #9ad3f5 1px double; BORDER-BOTTOM: #9ad3f5 1px double; BACKGROUND-COLOR: #4d89d5
+}
+.Bbutton {
+	BORDER-RIGHT: #a6a6a6 1px double; BORDER-TOP: #eeeeee 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #eeeeee 1px solid; BORDER-BOTTOM: #a6a6a6 1px solid; HEIGHT: 13pt; BACKGROUND-COLOR: #cbcbcb
+}
+.a {
+	FONT-SIZE: 12px; COLOR: #6a6e6d; LINE-HEIGHT: 16pt; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.b {
+	FONT-SIZE: 12px; COLOR: #a6aa4c; LINE-HEIGHT: 16pt; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.c {
+	FONT-SIZE: 12px; COLOR: #868e5f; LINE-HEIGHT: 16pt; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.d {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 18pt; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}

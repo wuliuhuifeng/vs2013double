@@ -1,0 +1,1130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{68398D9E-3AC2-4DB5-AF5A-4F73E83A6146}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Shuangguizhi</RootNamespace>
+    <AssemblyName>Shuangguizhi</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="403.htm" />
+    <Content Include="admin\Admin.Html" />
+    <Content Include="admin\AdminEdit.aspx" />
+    <Content Include="admin\BuyList.aspx" />
+    <Content Include="admin\CaiwuList.aspx" />
+    <Content Include="admin\CaiwuView.aspx" />
+    <Content Include="admin\code.aspx" />
+    <Content Include="admin\ConfigSet.aspx" />
+    <Content Include="admin\Css\Index.css" />
+    <Content Include="admin\Css\style.css" />
+    <Content Include="admin\DailiList.aspx" />
+    <Content Include="admin\Default.aspx" />
+    <Content Include="admin\Editor\Admin\bg_footer1.gif" />
+    <Content Include="admin\Editor\Admin\bg_form1.gif" />
+    <Content Include="admin\Editor\Admin\bg_lefttitle.gif" />
+    <Content Include="admin\Editor\Admin\bg_menu.gif" />
+    <Content Include="admin\Editor\Admin\c_dian1.gif" />
+    <Content Include="admin\Editor\Admin\c_dian2.gif" />
+    <Content Include="admin\Editor\Admin\c_dian3.gif" />
+    <Content Include="admin\Editor\Admin\c_dian4.gif" />
+    <Content Include="admin\Editor\Admin\c_webasp.gif" />
+    <Content Include="admin\Editor\Admin\d.gif" />
+    <Content Include="admin\Editor\Admin\do_ok.gif" />
+    <Content Include="admin\Editor\Admin\login.gif" />
+    <Content Include="admin\Editor\Admin\login_c2.gif" />
+    <Content Include="admin\Editor\Admin\login_c3.gif" />
+    <Content Include="admin\Editor\Admin\login_c4.gif" />
+    <Content Include="admin\Editor\Admin\login_c5.gif" />
+    <Content Include="admin\Editor\Admin\logo.gif" />
+    <Content Include="admin\Editor\Admin\private.js" />
+    <Content Include="admin\Editor\Admin\reset.gif" />
+    <Content Include="admin\Editor\Admin\style.css" />
+    <Content Include="admin\Editor\Admin\submit.gif" />
+    <Content Include="admin\Editor\Admin_Decode.asp" />
+    <Content Include="admin\Editor\Admin_Default.asp" />
+    <Content Include="admin\Editor\admin_login_zyt.asp" />
+    <Content Include="admin\Editor\Admin_ModiPwd.asp" />
+    <Content Include="admin\Editor\Admin_Private.asp" />
+    <Content Include="admin\Editor\Admin_Style.asp" />
+    <Content Include="admin\Editor\Admin_UploadFile.asp" />
+    <Content Include="admin\Editor\ButtonImage\standard\about.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\abspos.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\anchor.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\BackColor.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\backward.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\bgcolor.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\bgpic.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\blink.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\bold.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\br.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\checked.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\code.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\componentmenu.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\copy.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\createlink.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\cut.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\date.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\delete.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\editmenu.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\emot.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\excel.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\fieldset.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\file.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\filemenu.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\findreplace.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\flash.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\fontmenu.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\forecolor.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\formbutton.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\formcheckbox.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\formdropdown.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\formmenu.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\formradio.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\formtext.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\formtextarea.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\forward.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\help.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\icq.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\iframe.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\img.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\indent.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\inserthorizontalrule.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\insertorderedlist.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\insertparagraph.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\insertunorderedlist.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\italic.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\justifycenter.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\justifyfull.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\justifyleft.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\justifyright.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\map.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\marquee.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\maximize.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\media.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\minimize.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\modecode.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\modecodebtn.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\modeedit.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\modeeditbtn.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\modepreview.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\modetext.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\modetextbtn.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\modeviewbtn.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\msn.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\objectmenu.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\outdent.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\paragraphmenu.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\paste.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\pastetext.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\pasteword.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\print.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\qq.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\quote.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\redo.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\refresh.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\remoteupload.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\removeformat.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\save.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\selectall.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\showborders.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\showdetails.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\site.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\sizeminus.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\sizeplus.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\space.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\spellcheck.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\strikethrough.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\subscript.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\superscript.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\symbol.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablecellprop.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablecellsplit.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablecoldelete.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablecolinsertleft.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablecolinsertright.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablecolmerge.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablecolsplit.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tableinsert.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablemenu.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tableprop.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablerowdelete.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablerowinsertabove.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablerowinsertbelow.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablerowmerge.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablerowprop.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tablerowsplit.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\time.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tobig.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\toolmenu.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\tosmall.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\underline.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\undo.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\unlink.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\unselect.gif" />
+    <Content Include="admin\Editor\ButtonImage\standard\zoommenu.gif" />
+    <Content Include="admin\Editor\CSS\blue\Editor.css" />
+    <Content Include="admin\Editor\CSS\blue\EditorArea.css" />
+    <Content Include="admin\Editor\CSS\blue\MenuArea.css" />
+    <Content Include="admin\Editor\CSS\CoolBlue\Editor.css" />
+    <Content Include="admin\Editor\CSS\CoolBlue\EditorArea.css" />
+    <Content Include="admin\Editor\CSS\CoolBlue\MenuArea.css" />
+    <Content Include="admin\Editor\CSS\CoolBlue\TBHandle.gif" />
+    <Content Include="admin\Editor\CSS\CoolBlue\ToolbarBg.gif" />
+    <Content Include="admin\Editor\CSS\CoolBlue\ToolbarLeft.gif" />
+    <Content Include="admin\Editor\CSS\CoolBlue\ToolbarRight.gif" />
+    <Content Include="admin\Editor\CSS\green\Editor.css" />
+    <Content Include="admin\Editor\CSS\green\EditorArea.css" />
+    <Content Include="admin\Editor\CSS\green\MenuArea.css" />
+    <Content Include="admin\Editor\CSS\light\Editor.css" />
+    <Content Include="admin\Editor\CSS\light\EditorArea.css" />
+    <Content Include="admin\Editor\CSS\light\MenuArea.css" />
+    <Content Include="admin\Editor\CSS\mx\Editor.css" />
+    <Content Include="admin\Editor\CSS\mx\EditorArea.css" />
+    <Content Include="admin\Editor\CSS\mx\MenuArea.css" />
+    <Content Include="admin\Editor\CSS\Office3D\Editor.css" />
+    <Content Include="admin\Editor\CSS\Office3D\EditorArea.css" />
+    <Content Include="admin\Editor\CSS\Office3D\MenuArea.css" />
+    <Content Include="admin\Editor\CSS\Office\Editor.css" />
+    <Content Include="admin\Editor\CSS\Office\EditorArea.css" />
+    <Content Include="admin\Editor\CSS\Office\MenuArea.css" />
+    <Content Include="admin\Editor\CSS\red\Editor.css" />
+    <Content Include="admin\Editor\CSS\red\EditorArea.css" />
+    <Content Include="admin\Editor\CSS\red\MenuArea.css" />
+    <Content Include="admin\Editor\CSS\yellow\Editor.css" />
+    <Content Include="admin\Editor\CSS\yellow\EditorArea.css" />
+    <Content Include="admin\Editor\CSS\yellow\MenuArea.css" />
+    <Content Include="admin\Editor\CSS\zyt_style\Editor.css" />
+    <Content Include="admin\Editor\CSS\zyt_style\EditorArea.css" />
+    <Content Include="admin\Editor\CSS\zyt_style\MenuArea.css" />
+    <Content Include="admin\Editor\dataBase\zyt_ewebeditor.mdb" />
+    <Content Include="admin\Editor\Dialog\about.htm" />
+    <Content Include="admin\Editor\Dialog\about\ewebeditor.gif" />
+    <Content Include="admin\Editor\Dialog\anchor.htm" />
+    <Content Include="admin\Editor\Dialog\backimage.htm" />
+    <Content Include="admin\Editor\Dialog\dialog.js" />
+    <Content Include="admin\Editor\Dialog\emot.htm" />
+    <Content Include="admin\Editor\Dialog\fieldset.htm" />
+    <Content Include="admin\Editor\Dialog\file.htm" />
+    <Content Include="admin\Editor\Dialog\findreplace.htm" />
+    <Content Include="admin\Editor\Dialog\flash.htm" />
+    <Content Include="admin\Editor\Dialog\fullscreen.htm" />
+    <Content Include="admin\Editor\Dialog\help.htm" />
+    <Content Include="admin\Editor\Dialog\help\main.htm" />
+    <Content Include="admin\Editor\Dialog\help\top.htm" />
+    <Content Include="admin\Editor\Dialog\hyperlink.htm" />
+    <Content Include="admin\Editor\Dialog\iframe.htm" />
+    <Content Include="admin\Editor\Dialog\img.htm" />
+    <Content Include="admin\Editor\Dialog\map.htm" />
+    <Content Include="admin\Editor\Dialog\marquee.htm" />
+    <Content Include="admin\Editor\Dialog\media.htm" />
+    <Content Include="admin\Editor\Dialog\selcolor.htm" />
+    <Content Include="admin\Editor\Dialog\symbol.htm" />
+    <Content Include="admin\Editor\Dialog\table.htm" />
+    <Content Include="admin\Editor\Dialog\tablecell.htm" />
+    <Content Include="admin\Editor\Dialog\tablecellsplit.htm" />
+    <Content Include="admin\Editor\eWebEditor.asp" />
+    <Content Include="admin\Editor\Include\DeCode.asp" />
+    <Content Include="admin\Editor\Include\Editor.js" />
+    <Content Include="admin\Editor\Include\md5.asp" />
+    <Content Include="admin\Editor\Include\menu.js" />
+    <Content Include="admin\Editor\Include\pxT6M5pAGKf4sZ%256.asp" />
+    <Content Include="admin\Editor\Include\Startup.asp" />
+    <Content Include="admin\Editor\Include\table.js" />
+    <Content Include="admin\Editor\Include\upfile_class.asp" />
+    <Content Include="admin\Editor\PopUp.asp" />
+    <Content Include="admin\Editor\SysImage\bg\Birthday.gif" />
+    <Content Include="admin\Editor\SysImage\bg\christmas.gif" />
+    <Content Include="admin\Editor\SysImage\bg\Citrus.gif" />
+    <Content Include="admin\Editor\SysImage\bg\Clear.jpg" />
+    <Content Include="admin\Editor\SysImage\bg\Fiesta.jpg" />
+    <Content Include="admin\Editor\SysImage\bg\Flower.gif" />
+    <Content Include="admin\Editor\SysImage\bg\Gathering.jpg" />
+    <Content Include="admin\Editor\SysImage\bg\Glacier.jpg" />
+    <Content Include="admin\Editor\SysImage\bg\grid.gif" />
+    <Content Include="admin\Editor\SysImage\bg\Hearts.gif" />
+    <Content Include="admin\Editor\SysImage\bg\Ivy.gif" />
+    <Content Include="admin\Editor\SysImage\bg\Maize.jpg" />
+    <Content Include="admin\Editor\SysImage\bg\Nature.jpg" />
+    <Content Include="admin\Editor\SysImage\bg\snow.gif" />
+    <Content Include="admin\Editor\SysImage\bg\tech.gif" />
+    <Content Include="admin\Editor\SysImage\contextmenu.gif" />
+    <Content Include="admin\Editor\SysImage\emot\01.gif" />
+    <Content Include="admin\Editor\SysImage\emot\02.gif" />
+    <Content Include="admin\Editor\SysImage\emot\03.gif" />
+    <Content Include="admin\Editor\SysImage\emot\04.gif" />
+    <Content Include="admin\Editor\SysImage\emot\05.gif" />
+    <Content Include="admin\Editor\SysImage\emot\06.gif" />
+    <Content Include="admin\Editor\SysImage\emot\07.gif" />
+    <Content Include="admin\Editor\SysImage\emot\08.gif" />
+    <Content Include="admin\Editor\SysImage\emot\09.gif" />
+    <Content Include="admin\Editor\SysImage\emot\10.gif" />
+    <Content Include="admin\Editor\SysImage\emot\11.gif" />
+    <Content Include="admin\Editor\SysImage\emot\12.gif" />
+    <Content Include="admin\Editor\SysImage\emot\13.gif" />
+    <Content Include="admin\Editor\SysImage\emot\14.gif" />
+    <Content Include="admin\Editor\SysImage\emot\15.gif" />
+    <Content Include="admin\Editor\SysImage\emot\16.gif" />
+    <Content Include="admin\Editor\SysImage\emot\17.gif" />
+    <Content Include="admin\Editor\SysImage\emot\18.gif" />
+    <Content Include="admin\Editor\SysImage\emot\19.gif" />
+    <Content Include="admin\Editor\SysImage\emot\20.gif" />
+    <Content Include="admin\Editor\SysImage\emot\21.gif" />
+    <Content Include="admin\Editor\SysImage\emot\22.gif" />
+    <Content Include="admin\Editor\SysImage\emot\23.gif" />
+    <Content Include="admin\Editor\SysImage\emot\24.gif" />
+    <Content Include="admin\Editor\SysImage\emot\25.gif" />
+    <Content Include="admin\Editor\SysImage\emot\26.gif" />
+    <Content Include="admin\Editor\SysImage\emot\27.gif" />
+    <Content Include="admin\Editor\SysImage\emot\28.gif" />
+    <Content Include="admin\Editor\SysImage\emot\29.gif" />
+    <Content Include="admin\Editor\SysImage\emot\30.gif" />
+    <Content Include="admin\Editor\SysImage\emot\31.gif" />
+    <Content Include="admin\Editor\SysImage\emot\32.gif" />
+    <Content Include="admin\Editor\SysImage\emot\33.gif" />
+    <Content Include="admin\Editor\SysImage\emot\34.gif" />
+    <Content Include="admin\Editor\SysImage\emot\35.gif" />
+    <Content Include="admin\Editor\SysImage\emot\36.gif" />
+    <Content Include="admin\Editor\SysImage\emot\37.gif" />
+    <Content Include="admin\Editor\SysImage\emot\38.gif" />
+    <Content Include="admin\Editor\SysImage\emot\39.gif" />
+    <Content Include="admin\Editor\SysImage\emot\40.gif" />
+    <Content Include="admin\Editor\SysImage\emot\41.gif" />
+    <Content Include="admin\Editor\SysImage\emot\42.gif" />
+    <Content Include="admin\Editor\SysImage\emot\43.gif" />
+    <Content Include="admin\Editor\SysImage\emot\44.gif" />
+    <Content Include="admin\Editor\SysImage\emot\45.gif" />
+    <Content Include="admin\Editor\SysImage\emot\46.gif" />
+    <Content Include="admin\Editor\SysImage\emot\47.gif" />
+    <Content Include="admin\Editor\SysImage\emot\48.gif" />
+    <Content Include="admin\Editor\SysImage\emot\49.gif" />
+    <Content Include="admin\Editor\SysImage\emot\50.gif" />
+    <Content Include="admin\Editor\SysImage\ewebeditor.gif" />
+    <Content Include="admin\Editor\SysImage\file\audio.gif" />
+    <Content Include="admin\Editor\SysImage\file\avi.gif" />
+    <Content Include="admin\Editor\SysImage\file\bmp.gif" />
+    <Content Include="admin\Editor\SysImage\file\code.gif" />
+    <Content Include="admin\Editor\SysImage\file\doc.gif" />
+    <Content Include="admin\Editor\SysImage\file\exe.gif" />
+    <Content Include="admin\Editor\SysImage\file\folder.gif" />
+    <Content Include="admin\Editor\SysImage\file\folderback.gif" />
+    <Content Include="admin\Editor\SysImage\file\gif.gif" />
+    <Content Include="admin\Editor\SysImage\file\hlp.gif" />
+    <Content Include="admin\Editor\SysImage\file\htm.gif" />
+    <Content Include="admin\Editor\SysImage\file\jpg.gif" />
+    <Content Include="admin\Editor\SysImage\file\mdb.gif" />
+    <Content Include="admin\Editor\SysImage\file\mid.gif" />
+    <Content Include="admin\Editor\SysImage\file\mp.gif" />
+    <Content Include="admin\Editor\SysImage\file\mp3.gif" />
+    <Content Include="admin\Editor\SysImage\file\pdf.gif" />
+    <Content Include="admin\Editor\SysImage\file\pic.gif" />
+    <Content Include="admin\Editor\SysImage\file\ppt.gif" />
+    <Content Include="admin\Editor\SysImage\file\rar.gif" />
+    <Content Include="admin\Editor\SysImage\file\rm.gif" />
+    <Content Include="admin\Editor\SysImage\file\swf.gif" />
+    <Content Include="admin\Editor\SysImage\file\txt.gif" />
+    <Content Include="admin\Editor\SysImage\file\unknow.gif" />
+    <Content Include="admin\Editor\SysImage\file\xls.gif" />
+    <Content Include="admin\Editor\SysImage\file\zip.gif" />
+    <Content Include="admin\Editor\SysImage\Rect.gif" />
+    <Content Include="admin\Editor\SysImage\RectImg.gif" />
+    <Content Include="admin\Editor\SysImage\space.gif" />
+    <Content Include="admin\Editor\SysImage\webasp.gif" />
+    <Content Include="admin\Editor\test.asp" />
+    <Content Include="admin\Editor\Upload.asp" />
+    <Content Include="admin\GoodsList.aspx" />
+    <Content Include="admin\HuikuanList.aspx" />
+    <Content Include="admin\images\1.gif" />
+    <Content Include="admin\images\64.jpg" />
+    <Content Include="admin\images\b3.gif" />
+    <Content Include="admin\images\bg.jpg" />
+    <Content Include="admin\images\blank.gif" />
+    <Content Include="admin\images\botton_add.gif" />
+    <Content Include="admin\images\botton_addb.gif" />
+    <Content Include="admin\images\btn_15.gif" />
+    <Content Include="admin\images\chameleon.jpg" />
+    <Content Include="admin\images\css.css" />
+    <Content Include="admin\images\d_03.gif" />
+    <Content Include="admin\images\d_05.gif" />
+    <Content Include="admin\images\head.gif" />
+    <Content Include="admin\images\ico080426_close.gif" />
+    <Content Include="admin\images\ico080426_dot.gif" />
+    <Content Include="admin\images\ico080426_open.gif" />
+    <Content Include="admin\images\index-_111.gif" />
+    <Content Include="admin\images\jiesuan.gif" />
+    <Content Include="admin\images\link.htc" />
+    <Content Include="admin\images\main_1.jpg" />
+    <Content Include="admin\images\main_2.jpg" />
+    <Content Include="admin\images\main_3.jpg" />
+    <Content Include="admin\images\main_4.gif" />
+    <Content Include="admin\images\main_5.gif" />
+    <Content Include="admin\images\main_6.gif" />
+    <Content Include="admin\images\main_7.gif" />
+    <Content Include="admin\images\main_8.gif" />
+    <Content Include="admin\images\main_9.gif" />
+    <Content Include="admin\images\menu_04.gif" />
+    <Content Include="admin\images\menu_051.gif" />
+    <Content Include="admin\images\menu_1.gif" />
+    <Content Include="admin\images\menu_11.gif" />
+    <Content Include="admin\images\menu_2.gif" />
+    <Content Include="admin\images\menu_3.gif" />
+    <Content Include="admin\images\menu_4.gif" />
+    <Content Include="admin\images\menu_5.gif" />
+    <Content Include="admin\images\menu_bg.gif" />
+    <Content Include="admin\images\menu_main.jpg" />
+    <Content Include="admin\images\menu_title1.jpg" />
+    <Content Include="admin\images\menu_title2.jpg" />
+    <Content Include="admin\images\p0.gif" />
+    <Content Include="admin\images\p1.gif" />
+    <Content Include="admin\images\p2.gif" />
+    <Content Include="admin\images\p3.gif" />
+    <Content Include="admin\images\p4.gif" />
+    <Content Include="admin\images\p5.gif" />
+    <Content Include="admin\images\sizeminus.gif" />
+    <Content Include="admin\images\sizeplus.gif" />
+    <Content Include="admin\images\start_task.gif" />
+    <Content Include="admin\images\taolun.gif" />
+    <Content Include="admin\images\tixian.jpg" />
+    <Content Include="admin\images\wl.png" />
+    <Content Include="admin\images\wlt.jpg" />
+    <Content Include="admin\images\Y_btn_P.gif" />
+    <Content Include="admin\images\_notes\dwsync.xml" />
+    <Content Include="admin\JieSuanAllList.aspx" />
+    <Content Include="admin\JieSuanDayList.aspx" />
+    <Content Include="admin\JieSuanView.aspx" />
+    <Content Include="admin\js\moo.fx.js" />
+    <Content Include="admin\js\moo.fx.pack.js" />
+    <Content Include="admin\js\My97DatePicker\calendar.js" />
+    <Content Include="admin\js\My97DatePicker\config.js" />
+    <Content Include="admin\js\My97DatePicker\lang\en.js" />
+    <Content Include="admin\js\My97DatePicker\lang\zh-cn.js" />
+    <Content Include="admin\js\My97DatePicker\lang\zh-tw.js" />
+    <Content Include="admin\js\My97DatePicker\My97DatePicker.htm" />
+    <Content Include="admin\js\My97DatePicker\skin\datePicker.gif" />
+    <Content Include="admin\js\My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="admin\js\My97DatePicker\skin\default\img.gif" />
+    <Content Include="admin\js\My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="admin\js\My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="admin\js\My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="admin\js\My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="admin\js\My97DatePicker\WdatePicker.js" />
+    <Content Include="admin\js\My97DatePicker\开发包\lang\en.js" />
+    <Content Include="admin\js\My97DatePicker\开发包\lang\zh-cn.js" />
+    <Content Include="admin\js\My97DatePicker\开发包\lang\zh-tw.js" />
+    <Content Include="admin\js\My97DatePicker\开发包\readme.txt" />
+    <Content Include="admin\js\My97DatePicker\开发包\skin\datePicker.gif" />
+    <Content Include="admin\js\My97DatePicker\开发包\skin\default\datepicker.css" />
+    <Content Include="admin\js\My97DatePicker\开发包\skin\default\img.gif" />
+    <Content Include="admin\js\My97DatePicker\开发包\skin\WdatePicker.css" />
+    <Content Include="admin\js\My97DatePicker\开发包\skin\whyGreen\bg.jpg" />
+    <Content Include="admin\js\My97DatePicker\开发包\skin\whyGreen\datepicker.css" />
+    <Content Include="admin\js\My97DatePicker\开发包\skin\whyGreen\img.gif" />
+    <Content Include="admin\js\prototype.lite.js" />
+    <Content Include="admin\KongdanList.aspx" />
+    <Content Include="admin\Login.aspx" />
+    <Content Include="admin\logout.aspx" />
+    <Content Include="admin\Menu.aspx" />
+    <Content Include="admin\NetworkList.aspx" />
+    <Content Include="admin\NewsEdit.aspx" />
+    <Content Include="admin\NewsList.aspx" />
+    <Content Include="admin\ProductsList.aspx" />
+    <Content Include="admin\SendBuy.aspx" />
+    <Content Include="admin\SetMealList.aspx" />
+    <Content Include="admin\TixianList.aspx" />
+    <Content Include="admin\updatesession.aspx" />
+    <Content Include="admin\UserEdit.aspx" />
+    <Content Include="admin\UserEditA.aspx" />
+    <Content Include="admin\UserList.aspx" />
+    <Content Include="admin\UserListA.aspx" />
+    <Content Include="admin\UserListB.aspx" />
+    <Content Include="admin\_notes\dwsync.xml" />
+    <Content Include="ArticleList.aspx" />
+    <Content Include="ArticleView.aspx" />
+    <Content Include="ChanPinList.aspx" />
+    <Content Include="data\adskljf_hlzg.mdb" />
+    <Content Include="dbClass.aspx" />
+    <Content Include="Default1.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="del.aspx" />
+    <Content Include="editor\aspx\browse.aspx" />
+    <Content Include="editor\aspx\config.aspx" />
+    <Content Include="editor\aspx\upload.aspx" />
+    <Content Include="editor\buttonimage\blue\about.gif" />
+    <Content Include="editor\buttonimage\blue\abspos.gif" />
+    <Content Include="editor\buttonimage\blue\anchor.gif" />
+    <Content Include="editor\buttonimage\blue\art.gif" />
+    <Content Include="editor\buttonimage\blue\backcolor.gif" />
+    <Content Include="editor\buttonimage\blue\backward.gif" />
+    <Content Include="editor\buttonimage\blue\bgcolor.gif" />
+    <Content Include="editor\buttonimage\blue\bgpic.gif" />
+    <Content Include="editor\buttonimage\blue\blink.gif" />
+    <Content Include="editor\buttonimage\blue\bold.gif" />
+    <Content Include="editor\buttonimage\blue\br.gif" />
+    <Content Include="editor\buttonimage\blue\checked.gif" />
+    <Content Include="editor\buttonimage\blue\code.gif" />
+    <Content Include="editor\buttonimage\blue\componentmenu.gif" />
+    <Content Include="editor\buttonimage\blue\copy.gif" />
+    <Content Include="editor\buttonimage\blue\createlink.gif" />
+    <Content Include="editor\buttonimage\blue\css.gif" />
+    <Content Include="editor\buttonimage\blue\cut.gif" />
+    <Content Include="editor\buttonimage\blue\date.gif" />
+    <Content Include="editor\buttonimage\blue\delete.gif" />
+    <Content Include="editor\buttonimage\blue\editmenu.gif" />
+    <Content Include="editor\buttonimage\blue\emot.gif" />
+    <Content Include="editor\buttonimage\blue\eq.gif" />
+    <Content Include="editor\buttonimage\blue\excel.gif" />
+    <Content Include="editor\buttonimage\blue\fieldset.gif" />
+    <Content Include="editor\buttonimage\blue\file.gif" />
+    <Content Include="editor\buttonimage\blue\filemenu.gif" />
+    <Content Include="editor\buttonimage\blue\findreplace.gif" />
+    <Content Include="editor\buttonimage\blue\flash.gif" />
+    <Content Include="editor\buttonimage\blue\fontmenu.gif" />
+    <Content Include="editor\buttonimage\blue\forecolor.gif" />
+    <Content Include="editor\buttonimage\blue\formbutton.gif" />
+    <Content Include="editor\buttonimage\blue\formcheckbox.gif" />
+    <Content Include="editor\buttonimage\blue\formdropdown.gif" />
+    <Content Include="editor\buttonimage\blue\formmenu.gif" />
+    <Content Include="editor\buttonimage\blue\formradio.gif" />
+    <Content Include="editor\buttonimage\blue\formtext.gif" />
+    <Content Include="editor\buttonimage\blue\formtextarea.gif" />
+    <Content Include="editor\buttonimage\blue\forward.gif" />
+    <Content Include="editor\buttonimage\blue\help.gif" />
+    <Content Include="editor\buttonimage\blue\icq.gif" />
+    <Content Include="editor\buttonimage\blue\iframe.gif" />
+    <Content Include="editor\buttonimage\blue\img.gif" />
+    <Content Include="editor\buttonimage\blue\importexcel.gif" />
+    <Content Include="editor\buttonimage\blue\importword.gif" />
+    <Content Include="editor\buttonimage\blue\indent.gif" />
+    <Content Include="editor\buttonimage\blue\inserthorizontalrule.gif" />
+    <Content Include="editor\buttonimage\blue\insertorderedlist.gif" />
+    <Content Include="editor\buttonimage\blue\insertparagraph.gif" />
+    <Content Include="editor\buttonimage\blue\insertunorderedlist.gif" />
+    <Content Include="editor\buttonimage\blue\italic.gif" />
+    <Content Include="editor\buttonimage\blue\justifycenter.gif" />
+    <Content Include="editor\buttonimage\blue\justifyfull.gif" />
+    <Content Include="editor\buttonimage\blue\justifyleft.gif" />
+    <Content Include="editor\buttonimage\blue\justifyright.gif" />
+    <Content Include="editor\buttonimage\blue\lcase.gif" />
+    <Content Include="editor\buttonimage\blue\localupload.gif" />
+    <Content Include="editor\buttonimage\blue\map.gif" />
+    <Content Include="editor\buttonimage\blue\marquee.gif" />
+    <Content Include="editor\buttonimage\blue\maximize.gif" />
+    <Content Include="editor\buttonimage\blue\media.gif" />
+    <Content Include="editor\buttonimage\blue\minimize.gif" />
+    <Content Include="editor\buttonimage\blue\modecode.gif" />
+    <Content Include="editor\buttonimage\blue\modecodebtn.gif" />
+    <Content Include="editor\buttonimage\blue\modeedit.gif" />
+    <Content Include="editor\buttonimage\blue\modeeditbtn.gif" />
+    <Content Include="editor\buttonimage\blue\modetext.gif" />
+    <Content Include="editor\buttonimage\blue\modetextbtn.gif" />
+    <Content Include="editor\buttonimage\blue\modeview.gif" />
+    <Content Include="editor\buttonimage\blue\modeviewbtn.gif" />
+    <Content Include="editor\buttonimage\blue\msn.gif" />
+    <Content Include="editor\buttonimage\blue\objectmenu.gif" />
+    <Content Include="editor\buttonimage\blue\outdent.gif" />
+    <Content Include="editor\buttonimage\blue\paint.gif" />
+    <Content Include="editor\buttonimage\blue\paragraph.gif" />
+    <Content Include="editor\buttonimage\blue\paragraphmenu.gif" />
+    <Content Include="editor\buttonimage\blue\paste.gif" />
+    <Content Include="editor\buttonimage\blue\pastetext.gif" />
+    <Content Include="editor\buttonimage\blue\pasteword.gif" />
+    <Content Include="editor\buttonimage\blue\print.gif" />
+    <Content Include="editor\buttonimage\blue\qq.gif" />
+    <Content Include="editor\buttonimage\blue\quote.gif" />
+    <Content Include="editor\buttonimage\blue\redo.gif" />
+    <Content Include="editor\buttonimage\blue\refresh.gif" />
+    <Content Include="editor\buttonimage\blue\remoteupload.gif" />
+    <Content Include="editor\buttonimage\blue\removeformat.gif" />
+    <Content Include="editor\buttonimage\blue\save.gif" />
+    <Content Include="editor\buttonimage\blue\selectall.gif" />
+    <Content Include="editor\buttonimage\blue\showborders.gif" />
+    <Content Include="editor\buttonimage\blue\showdetails.gif" />
+    <Content Include="editor\buttonimage\blue\site.gif" />
+    <Content Include="editor\buttonimage\blue\sizeminus.gif" />
+    <Content Include="editor\buttonimage\blue\sizeplus.gif" />
+    <Content Include="editor\buttonimage\blue\space.gif" />
+    <Content Include="editor\buttonimage\blue\spellcheck.gif" />
+    <Content Include="editor\buttonimage\blue\strikethrough.gif" />
+    <Content Include="editor\buttonimage\blue\subscript.gif" />
+    <Content Include="editor\buttonimage\blue\superscript.gif" />
+    <Content Include="editor\buttonimage\blue\symbol.gif" />
+    <Content Include="editor\buttonimage\blue\tablecellprop.gif" />
+    <Content Include="editor\buttonimage\blue\tablecellsplit.gif" />
+    <Content Include="editor\buttonimage\blue\tablecoldelete.gif" />
+    <Content Include="editor\buttonimage\blue\tablecolinsertleft.gif" />
+    <Content Include="editor\buttonimage\blue\tablecolinsertright.gif" />
+    <Content Include="editor\buttonimage\blue\tablecolmerge.gif" />
+    <Content Include="editor\buttonimage\blue\tablecolsplit.gif" />
+    <Content Include="editor\buttonimage\blue\tableinsert.gif" />
+    <Content Include="editor\buttonimage\blue\tablemenu.gif" />
+    <Content Include="editor\buttonimage\blue\tableprop.gif" />
+    <Content Include="editor\buttonimage\blue\tablerowdelete.gif" />
+    <Content Include="editor\buttonimage\blue\tablerowinsertabove.gif" />
+    <Content Include="editor\buttonimage\blue\tablerowinsertbelow.gif" />
+    <Content Include="editor\buttonimage\blue\tablerowmerge.gif" />
+    <Content Include="editor\buttonimage\blue\tablerowprop.gif" />
+    <Content Include="editor\buttonimage\blue\tablerowsplit.gif" />
+    <Content Include="editor\buttonimage\blue\template.gif" />
+    <Content Include="editor\buttonimage\blue\time.gif" />
+    <Content Include="editor\buttonimage\blue\tobig.gif" />
+    <Content Include="editor\buttonimage\blue\toolmenu.gif" />
+    <Content Include="editor\buttonimage\blue\tosmall.gif" />
+    <Content Include="editor\buttonimage\blue\ucase.gif" />
+    <Content Include="editor\buttonimage\blue\underline.gif" />
+    <Content Include="editor\buttonimage\blue\undo.gif" />
+    <Content Include="editor\buttonimage\blue\unlink.gif" />
+    <Content Include="editor\buttonimage\blue\unselect.gif" />
+    <Content Include="editor\buttonimage\blue\zoommenu.gif" />
+    <Content Include="editor\css\coolblue\editor.css" />
+    <Content Include="editor\css\coolblue\editorarea.css" />
+    <Content Include="editor\css\coolblue\menuarea.css" />
+    <Content Include="editor\css\coolblue\tbhandle.gif" />
+    <Content Include="editor\css\coolblue\toolbarbg.gif" />
+    <Content Include="editor\css\coolblue\toolbarleft.gif" />
+    <Content Include="editor\css\coolblue\toolbarright.gif" />
+    <Content Include="editor\dialog\about.htm" />
+    <Content Include="editor\dialog\anchor.htm" />
+    <Content Include="editor\dialog\art.htm" />
+    <Content Include="editor\dialog\backimage.htm" />
+    <Content Include="editor\dialog\browse.htm" />
+    <Content Include="editor\dialog\dialog.css" />
+    <Content Include="editor\dialog\dialog.js" />
+    <Content Include="editor\dialog\emot.htm" />
+    <Content Include="editor\dialog\eq.htm" />
+    <Content Include="editor\dialog\fieldset.htm" />
+    <Content Include="editor\dialog\file.htm" />
+    <Content Include="editor\dialog\findreplace.htm" />
+    <Content Include="editor\dialog\flash.htm" />
+    <Content Include="editor\dialog\fullscreen.htm" />
+    <Content Include="editor\dialog\hyperlink.htm" />
+    <Content Include="editor\dialog\iframe.htm" />
+    <Content Include="editor\dialog\img.htm" />
+    <Content Include="editor\dialog\importexcel.htm" />
+    <Content Include="editor\dialog\importword.htm" />
+    <Content Include="editor\dialog\localupload.htm" />
+    <Content Include="editor\dialog\map.htm" />
+    <Content Include="editor\dialog\marquee.htm" />
+    <Content Include="editor\dialog\media.htm" />
+    <Content Include="editor\dialog\paragraph.htm" />
+    <Content Include="editor\dialog\selcolor.htm" />
+    <Content Include="editor\dialog\symbol.htm" />
+    <Content Include="editor\dialog\table.htm" />
+    <Content Include="editor\dialog\tablecell.htm" />
+    <Content Include="editor\dialog\tablecellsplit.htm" />
+    <Content Include="editor\ewebeditor.htm" />
+    <Content Include="editor\js\editor.js" />
+    <Content Include="editor\js\lang.js" />
+    <Content Include="editor\js\main.js" />
+    <Content Include="editor\js\menu.js" />
+    <Content Include="editor\js\show.js" />
+    <Content Include="editor\js\table.js" />
+    <Content Include="editor\language\en.css" />
+    <Content Include="editor\language\en.js" />
+    <Content Include="editor\language\zh-cn.css" />
+    <Content Include="editor\language\zh-cn.js" />
+    <Content Include="editor\language\zh-tw.css" />
+    <Content Include="editor\language\zh-tw.js" />
+    <Content Include="editor\popup.htm" />
+    <Content Include="editor\style\small.js" />
+    <Content Include="editor\style\standard650.js" />
+    <Content Include="editor\sysimage\actualsize.gif" />
+    <Content Include="editor\sysimage\bestfit.gif" />
+    <Content Include="editor\sysimage\contextmenu.gif" />
+    <Content Include="editor\sysimage\ewebeditor.gif" />
+    <Content Include="editor\sysimage\file\audio.gif" />
+    <Content Include="editor\sysimage\file\avi.gif" />
+    <Content Include="editor\sysimage\file\bmp.gif" />
+    <Content Include="editor\sysimage\file\closedfolder.gif" />
+    <Content Include="editor\sysimage\file\code.gif" />
+    <Content Include="editor\sysimage\file\doc.gif" />
+    <Content Include="editor\sysimage\file\exe.gif" />
+    <Content Include="editor\sysimage\file\folder.gif" />
+    <Content Include="editor\sysimage\file\folderback.gif" />
+    <Content Include="editor\sysimage\file\gif.gif" />
+    <Content Include="editor\sysimage\file\hlp.gif" />
+    <Content Include="editor\sysimage\file\htm.gif" />
+    <Content Include="editor\sysimage\file\jpg.gif" />
+    <Content Include="editor\sysimage\file\mdb.gif" />
+    <Content Include="editor\sysimage\file\mid.gif" />
+    <Content Include="editor\sysimage\file\mp.gif" />
+    <Content Include="editor\sysimage\file\mp3.gif" />
+    <Content Include="editor\sysimage\file\openfolder.gif" />
+    <Content Include="editor\sysimage\file\parentfolder.gif" />
+    <Content Include="editor\sysimage\file\pdf.gif" />
+    <Content Include="editor\sysimage\file\pic.gif" />
+    <Content Include="editor\sysimage\file\ppt.gif" />
+    <Content Include="editor\sysimage\file\rar.gif" />
+    <Content Include="editor\sysimage\file\rm.gif" />
+    <Content Include="editor\sysimage\file\swf.gif" />
+    <Content Include="editor\sysimage\file\txt.gif" />
+    <Content Include="editor\sysimage\file\unknow.gif" />
+    <Content Include="editor\sysimage\file\xls.gif" />
+    <Content Include="editor\sysimage\file\zip.gif" />
+    <Content Include="editor\sysimage\rect.gif" />
+    <Content Include="editor\sysimage\rectimg.gif" />
+    <Content Include="editor\sysimage\space.gif" />
+    <Content Include="editor\sysimage\zoomin.gif" />
+    <Content Include="editor\sysimage\zoomout.gif" />
+    <Content Include="galaxy\code.aspx" />
+    <Content Include="galaxy\ContentManage.aspx" />
+    <Content Include="galaxy\Default.aspx" />
+    <Content Include="galaxy\images\admin_left_1.gif" />
+    <Content Include="galaxy\images\admin_left_2.gif" />
+    <Content Include="galaxy\images\admin_left_3.gif" />
+    <Content Include="galaxy\images\admin_left_4.gif" />
+    <Content Include="galaxy\images\admin_left_5.gif" />
+    <Content Include="galaxy\images\admin_left_6.gif" />
+    <Content Include="galaxy\images\admin_left_7.gif" />
+    <Content Include="galaxy\images\admin_left_8.gif" />
+    <Content Include="galaxy\images\admin_left_9.gif" />
+    <Content Include="galaxy\images\help.gif" />
+    <Content Include="galaxy\images\link.gif" />
+    <Content Include="galaxy\images\linkbom.gif" />
+    <Content Include="galaxy\images\title.gif" />
+    <Content Include="galaxy\images\title_bg_quit.gif" />
+    <Content Include="galaxy\images\topbg.gif" />
+    <Content Include="galaxy\images\xpbg.gif" />
+    <Content Include="galaxy\InfoCateList.aspx" />
+    <Content Include="galaxy\InfoEdit.aspx" />
+    <Content Include="galaxy\InfoList.aspx" />
+    <Content Include="galaxy\left.aspx" />
+    <Content Include="galaxy\login.aspx" />
+    <Content Include="galaxy\logout.aspx" />
+    <Content Include="galaxy\ModuleEdit.aspx" />
+    <Content Include="galaxy\ModuleList.aspx" />
+    <Content Include="galaxy\style.css" />
+    <Content Include="galaxy\UploadFile.aspx" />
+    <Content Include="galaxy\webconfig.aspx" />
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\2011691134159.jpg" />
+    <Content Include="Images\20116911342453.jpg" />
+    <Content Include="Images\20116911450155 - 副本.jpg" />
+    <Content Include="Images\20116911450155.jpg" />
+    <Content Include="Images\20116911539236 - 副本.jpg" />
+    <Content Include="Images\20116911539236.jpg" />
+    <Content Include="Images\about.jpg" />
+    <Content Include="Images\aboutc.jpg" />
+    <Content Include="Images\aboutUs.jpg" />
+    <Content Include="Images\arrow01.jpg" />
+    <Content Include="Images\arrow02.jpg" />
+    <Content Include="Images\arrow_6.gif" />
+    <Content Include="Images\arrow_notice.jpg" />
+    <Content Include="Images\banner.swf" />
+    <Content Include="Images\bg_logo_r.jpg" />
+    <Content Include="Images\button_contact.jpg" />
+    <Content Include="Images\button_human.jpg" />
+    <Content Include="Images\button_message.jpg" />
+    <Content Include="Images\common.js" />
+    <Content Include="Images\companypic.jpg" />
+    <Content Include="Images\foot.gif" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\main.css" />
+    <Content Include="Images\more1.jpg" />
+    <Content Include="Images\nav.gif" />
+    <Content Include="Images\nav1.gif" />
+    <Content Include="Images\nav2.gif" />
+    <Content Include="Images\nav3.gif" />
+    <Content Include="Images\nav4.gif" />
+    <Content Include="Images\nav5.gif" />
+    <Content Include="Images\nav6.gif" />
+    <Content Include="Images\nav7.gif" />
+    <Content Include="Images\nav8.gif" />
+    <Content Include="Images\nav9.gif" />
+    <Content Include="Images\nav_foot_l.jpg" />
+    <Content Include="Images\nav_foot_r.jpg" />
+    <Content Include="Images\nav_line_foot.jpg" />
+    <Content Include="Images\pixviewer.swf" />
+    <Content Include="Images\product.jpg" />
+    <Content Include="Images\title_about_us.jpg" />
+    <Content Include="Images\title_about_us_l.jpg" />
+    <Content Include="Images\title_about_us_r.jpg" />
+    <Content Include="Images\title_business.jpg" />
+    <Content Include="Images\title_case01.jpg" />
+    <Content Include="Images\title_news01.jpg" />
+    <Content Include="Images\title_notice.jpg" />
+    <Content Include="Images\title_product01.jpg" />
+    <Content Include="Images\title_product_r.jpg" />
+    <Content Include="Images\top.gif" />
+    <Content Include="Images\tuijian.jpg" />
+    <Content Include="Images\untitled.bmp" />
+    <Content Include="Images\yingxiao.jpg" />
+    <Content Include="Images\yingxiaoc.jpg" />
+    <Content Include="Images\yyri2.gif" />
+    <Content Include="jquery-1.11.1.min.js" />
+    <Content Include="ProductView.aspx" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="SinglePageView.aspx" />
+    <Content Include="test.aspx" />
+    <Content Include="Vip\BaoBiao.aspx" />
+    <Content Include="Vip\BuyList.aspx" />
+    <Content Include="Vip\CaiWuList.aspx" />
+    <Content Include="Vip\code.aspx" />
+    <Content Include="Vip\Css\css3button.css" />
+    <Content Include="Vip\Css\Index.css" />
+    <Content Include="Vip\Css\_notes\dwsync.xml" />
+    <Content Include="Vip\Default.aspx" />
+    <Content Include="Vip\Images\00.swf" />
+    <Content Include="Vip\Images\01_online.gif" />
+    <Content Include="Vip\Images\021.jpg" />
+    <Content Include="Vip\Images\03_online.gif" />
+    <Content Include="Vip\Images\065.gif" />
+    <Content Include="Vip\Images\1.gif" />
+    <Content Include="Vip\Images\11.swf" />
+    <Content Include="Vip\Images\114.gif" />
+    <Content Include="Vip\Images\123.jpg" />
+    <Content Include="Vip\Images\13_2.gif" />
+    <Content Include="Vip\Images\2.gif" />
+    <Content Include="Vip\Images\200810241627014_2.jpg" />
+    <Content Include="Vip\Images\22.swf" />
+    <Content Include="Vip\Images\33.swf" />
+    <Content Include="Vip\Images\413_2.gif" />
+    <Content Include="Vip\Images\44.swf" />
+    <Content Include="Vip\Images\52413_2.gif" />
+    <Content Include="Vip\Images\55.swf" />
+    <Content Include="Vip\Images\871.jpg" />
+    <Content Include="Vip\Images\a.gif" />
+    <Content Include="Vip\Images\arrow_082.gif" />
+    <Content Include="Vip\Images\banner_home.swf" />
+    <Content Include="Vip\Images\Bar.gif" />
+    <Content Include="Vip\Images\best.gif" />
+    <Content Include="Vip\Images\bgDIVIDER.gif" />
+    <Content Include="Vip\Images\bgOFF.gif" />
+    <Content Include="Vip\Images\bgON.gif" />
+    <Content Include="Vip\Images\bg_index.gif" />
+    <Content Include="Vip\Images\bj.gif" />
+    <Content Include="Vip\Images\blank.gif" />
+    <Content Include="Vip\Images\botton_add.gif" />
+    <Content Include="Vip\Images\botton_addb.gif" />
+    <Content Include="Vip\Images\btn_15.gif" />
+    <Content Include="Vip\Images\bt_login.gif" />
+    <Content Include="Vip\Images\by.gif" />
+    <Content Include="Vip\Images\css.css" />
+    <Content Include="Vip\Images\CssAdmin.css" />
+    <Content Include="Vip\Images\de3.gif" />
+    <Content Include="Vip\Images\dewe4.gif" />
+    <Content Include="Vip\Images\dh.swf" />
+    <Content Include="Vip\Images\dsafe5.gif" />
+    <Content Include="Vip\Images\Edit.gif" />
+    <Content Include="Vip\Images\Explain.gif" />
+    <Content Include="Vip\Images\fds.gif" />
+    <Content Include="Vip\Images\fg.jpg" />
+    <Content Include="Vip\Images\folder+.gif" />
+    <Content Include="Vip\Images\folder.gif" />
+    <Content Include="Vip\Images\home.gif" />
+    <Content Include="Vip\Images\hyi.gif" />
+    <Content Include="Vip\Images\ico080426_close.gif" />
+    <Content Include="Vip\Images\ico080426_dot.gif" />
+    <Content Include="Vip\Images\ico080426_open.gif" />
+    <Content Include="Vip\Images\index-_111.gif" />
+    <Content Include="Vip\Images\k_01.gif" />
+    <Content Include="Vip\Images\k_02.gif" />
+    <Content Include="Vip\Images\k_04.gif" />
+    <Content Include="Vip\Images\link.htc" />
+    <Content Include="Vip\Images\login.gif" />
+    <Content Include="Vip\Images\login_bg.gif" />
+    <Content Include="Vip\Images\lt.gif" />
+    <Content Include="Vip\Images\lu.gif" />
+    <Content Include="Vip\Images\main_16.gif" />
+    <Content Include="Vip\Images\main_25.gif" />
+    <Content Include="Vip\Images\menu_04.gif" />
+    <Content Include="Vip\Images\menu_051.gif" />
+    <Content Include="Vip\Images\mx_01sss.gif" />
+    <Content Include="Vip\Images\mx_02.gif" />
+    <Content Include="Vip\Images\mx_03_01.gif" />
+    <Content Include="Vip\Images\mx_03_02.gif" />
+    <Content Include="Vip\Images\mx_03_04.gif" />
+    <Content Include="Vip\Images\mx_03_05.gif" />
+    <Content Include="Vip\Images\mx_03_06.gif" />
+    <Content Include="Vip\Images\mx_05.gif" />
+    <Content Include="Vip\Images\off.png" />
+    <Content Include="Vip\Images\on.png" />
+    <Content Include="Vip\Images\p0.gif" />
+    <Content Include="Vip\Images\p1.gif" />
+    <Content Include="Vip\Images\p2.gif" />
+    <Content Include="Vip\Images\p3.gif" />
+    <Content Include="Vip\Images\p4.gif" />
+    <Content Include="Vip\Images\p5.gif" />
+    <Content Include="Vip\Images\qq_online.gif" />
+    <Content Include="Vip\Images\quit.gif" />
+    <Content Include="Vip\Images\rty.gif" />
+    <Content Include="Vip\Images\Select.gif" />
+    <Content Include="Vip\Images\sizeminus.gif" />
+    <Content Include="Vip\Images\sizeplus.gif" />
+    <Content Include="Vip\Images\SortEnd_Folder_Close.gif" />
+    <Content Include="Vip\Images\SortEnd_Folder_Open.gif" />
+    <Content Include="Vip\Images\Sort_File.gif" />
+    <Content Include="Vip\Images\Sort_File_End.gif" />
+    <Content Include="Vip\Images\Sort_Folder_Close.gif" />
+    <Content Include="Vip\Images\Sort_Folder_Open.gif" />
+    <Content Include="Vip\Images\Sort_Listline.gif" />
+    <Content Include="Vip\Images\sr4.gif" />
+    <Content Include="Vip\Images\sub-arrow.gif" />
+    <Content Include="Vip\Images\tongji.jpg" />
+    <Content Include="Vip\Images\trt3.gif" />
+    <Content Include="Vip\Images\uesr.gif" />
+    <Content Include="Vip\Images\wl.png" />
+    <Content Include="Vip\Images\wlt.jpg" />
+    <Content Include="Vip\Images\wlt.png" />
+    <Content Include="Vip\Images\yd.gif" />
+    <Content Include="Vip\Images\Y_btn_P.gif" />
+    <Content Include="Vip\Images\z1.jpg" />
+    <Content Include="Vip\Images\z2.jpg" />
+    <Content Include="Vip\Images\z3.jpg" />
+    <Content Include="Vip\Images\z4.jpg" />
+    <Content Include="Vip\Images\_2.gif" />
+    <Content Include="Vip\Images\_notes\dwsync.xml" />
+    <Content Include="Vip\JiangjinList.aspx" />
+    <Content Include="Vip\Login.aspx" />
+    <Content Include="Vip\logout.aspx" />
+    <Content Include="Vip\main.files\bnbg.jpg" />
+    <Content Include="Vip\main.files\cssmenu2.js" />
+    <Content Include="Vip\main.files\icon.gif" />
+    <Content Include="Vip\main.files\index.css" />
+    <Content Include="Vip\main.files\cssmenu.js" />
+    <Content Include="Vip\main.files\jquery-3.2.1.min.js" />
+    <Content Include="Vip\main.files\left_c.jpg" />
+    <Content Include="Vip\main.files\left_down.jpg" />
+    <Content Include="Vip\main.files\left_up.jpg" />
+    <Content Include="Vip\main.files\line03.jpg" />
+    <Content Include="Vip\main.files\logout.gif" />
+    <Content Include="Vip\main.files\mm_menu.js" />
+    <Content Include="Vip\main.files\Myxp_showall.files\line.gif" />
+    <Content Include="Vip\main.files\Myxp_showall.files\style.css" />
+    <Content Include="Vip\main.files\Myxp_showall.htm" />
+    <Content Include="Vip\main.files\right_bc.jpg" />
+    <Content Include="Vip\main.files\right_bl.jpg" />
+    <Content Include="Vip\main.files\right_c.jpg" />
+    <Content Include="Vip\main.files\right_rc.jpg" />
+    <Content Include="Vip\main.files\right_tc.jpg" />
+    <Content Include="Vip\main.files\right_tl.jpg" />
+    <Content Include="Vip\main.files\right_tr.jpg" />
+    <Content Include="Vip\main.files\spacer.gif" />
+    <Content Include="Vip\main.files\title06.jpg" />
+    <Content Include="Vip\main.files\title07.jpg" />
+    <Content Include="Vip\main.files\title08.jpg" />
+    <Content Include="Vip\main.files\title10.jpg" />
+    <Content Include="Vip\main.files\title22.jpg" />
+    <Content Include="Vip\main.files\title_shop08.gif" />
+    <Content Include="Vip\NetworkList.aspx" />
+    <Content Include="Vip\NewsList.aspx" />
+    <Content Include="Vip\NewsView.aspx" />
+    <Content Include="Vip\NewsViewA.aspx" />
+    <Content Include="Vip\Password.aspx" />
+    <Content Include="Vip\ProductList.aspx" />
+    <Content Include="Vip\searchjiangjin.aspx" />
+    <Content Include="Vip\Shopping.aspx" />
+    <Content Include="Vip\TiXian.aspx" />
+    <Content Include="Vip\updatesession.aspx" />
+    <Content Include="Vip\UserEdit.aspx" />
+    <Content Include="Vip\UserEditA.aspx" />
+    <Content Include="Vip\UserEditB.aspx" />
+    <Content Include="Vip\UserList.aspx" />
+    <Content Include="Vip\UserListAA.aspx" />
+    <Content Include="Vip\JiFen.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\App_Web_-affu90p\App_Web_-affu90p.csproj">
+      <Project>{e0696d2c-e32a-49c2-be01-f7b5a5f7ceef}</Project>
+      <Name>App_Web_-affu90p</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_0p5kntrz\App_Web_0p5kntrz.csproj">
+      <Project>{767f21dd-7c26-4aaa-918b-c287cf473582}</Project>
+      <Name>App_Web_0p5kntrz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_73mftbmz\App_Web_73mftbmz.csproj">
+      <Project>{7c7b81ba-831d-4a91-a07a-f00c6917e44c}</Project>
+      <Name>App_Web_73mftbmz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_bzobtowr\App_Web_bzobtowr.csproj">
+      <Project>{e1ffe0f1-365f-49e1-8b10-e22a87762449}</Project>
+      <Name>App_Web_bzobtowr</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_crgpnism\App_Web_crgpnism.csproj">
+      <Project>{94035998-1b41-4d51-b66c-49e3cd2c6c98}</Project>
+      <Name>App_Web_crgpnism</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_cu4qre4t\App_Web_cu4qre4t.csproj">
+      <Project>{4491ca20-c1dc-4595-9ac5-c6615ccd22d4}</Project>
+      <Name>App_Web_cu4qre4t</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_etxj2abt\App_Web_etxj2abt.csproj">
+      <Project>{58d0fa52-05ee-44d7-895a-2d8ad60d62d6}</Project>
+      <Name>App_Web_etxj2abt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_gbxslrzj\App_Web_gbxslrzj.csproj">
+      <Project>{021a5cd9-b9a5-487d-b3d0-2779a118c519}</Project>
+      <Name>App_Web_gbxslrzj</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_j7o_psq5\App_Web_j7o_psq5.csproj">
+      <Project>{b4215550-b4a1-4473-a719-8fcdb5f0faf6}</Project>
+      <Name>App_Web_j7o_psq5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_jbdor3lm\App_Web_jbdor3lm.csproj">
+      <Project>{45f6a7c2-84e4-4d25-bf98-4544f756e7d4}</Project>
+      <Name>App_Web_jbdor3lm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_jivjg7cu\App_Web_jivjg7cu.csproj">
+      <Project>{58423f69-9dfd-4848-92ed-e07b024cd5ae}</Project>
+      <Name>App_Web_jivjg7cu</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_km-wv1xc\App_Web_km-wv1xc.csproj">
+      <Project>{145cea3e-bce0-455f-8b33-f434085db15b}</Project>
+      <Name>App_Web_km-wv1xc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_kuefkzfp\App_Web_kuefkzfp.csproj">
+      <Project>{b55779ea-fa3b-4347-b9d2-8fda8d2580c3}</Project>
+      <Name>App_Web_kuefkzfp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_l0sgfu93\App_Web_l0sgfu93.csproj">
+      <Project>{d47b73a6-87cf-45a7-a8ed-652ec389531e}</Project>
+      <Name>App_Web_l0sgfu93</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_lcpqhm99\App_Web_lcpqhm99.csproj">
+      <Project>{922bd875-8876-430d-932c-be2428a7f3db}</Project>
+      <Name>App_Web_lcpqhm99</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_ms7moug_\App_Web_ms7moug_.csproj">
+      <Project>{6ddcfade-4178-41c1-a370-7450a9410eb7}</Project>
+      <Name>App_Web_ms7moug_</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_r0ynyk2h\App_Web_r0ynyk2h.csproj">
+      <Project>{db7de336-1f3d-4d11-8ea1-05734f1fc41d}</Project>
+      <Name>App_Web_r0ynyk2h</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_spnfzznk\App_Web_spnfzznk.csproj">
+      <Project>{f88adddc-f4bd-4b43-bd30-f47d8c7e2874}</Project>
+      <Name>App_Web_spnfzznk</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_uc4oazam\App_Web_uc4oazam.csproj">
+      <Project>{654c1c1a-4e62-499c-9afe-45c508145a5b}</Project>
+      <Name>App_Web_uc4oazam</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_ukgnqdzt\App_Web_ukgnqdzt.csproj">
+      <Project>{aad5ab6d-43f8-4060-b3e2-0491dba53b7a}</Project>
+      <Name>App_Web_ukgnqdzt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_upkpsm__\App_Web_upkpsm__.csproj">
+      <Project>{3577ad21-ecca-4f4c-825a-88cc326def2a}</Project>
+      <Name>App_Web_upkpsm__</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_x1rzjssu\App_Web_x1rzjssu.csproj">
+      <Project>{f87bcffb-0a23-462e-9ebd-ec44952348dd}</Project>
+      <Name>App_Web_x1rzjssu</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_x1tbcymf\App_Web_x1tbcymf.csproj">
+      <Project>{8cdbb56b-aeb1-4222-9926-6eed2ed81099}</Project>
+      <Name>App_Web_x1tbcymf</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_xptb_qd5\App_Web_xptb_qd5.csproj">
+      <Project>{a3955adb-4f1c-47e1-b078-7a09432dfe60}</Project>
+      <Name>App_Web_xptb_qd5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_xut1gbbx\App_Web_xut1gbbx.csproj">
+      <Project>{750b1ec3-b7f1-44a7-9081-3e4087a55e49}</Project>
+      <Name>App_Web_xut1gbbx</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\App_Web_z7lv_vh1\App_Web_z7lv_vh1.csproj">
+      <Project>{9e328a07-a287-484f-9bb1-d8b2d17222a9}</Project>
+      <Name>App_Web_z7lv_vh1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\_notes\Do_JieSuanAll001.asp.mno" />
+    <Content Include="admin\_notes\gonggaoz.asp.mno" />
+    <Content Include="admin\_notes\kongUserReg.asp.mno" />
+    <Content Include="data\adskljf_hlzg.config" />
+    <Content Include="editor\web.config" />
+    <Content Include="Vip\Css\Index.css1" />
+    <Content Include="MasterPage.master" />
+    <Content Include="PrecompiledApp.config" />
+    <None Include="Properties\PublishProfiles\ShuangGuiZhi.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52677/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

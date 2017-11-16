@@ -1,0 +1,210 @@
+/* CSS Document */
+.banner_all {
+    width: 100%;
+    height: 422px;
+    background: #fff;
+
+}
+
+.banner {
+    width: 1154px;
+    margin: 20px auto;
+    text-align: center
+}
+/*banner*/
+#focus {
+    width: 1154px;
+    height: 422px;
+    overflow: hidden;
+    position: relative;
+}
+
+#focus ul {
+    height: 422px;
+    position: absolute;
+    left: 0px;
+}
+
+#focus ul li {
+    float: left;
+    width: 1154px;
+    height: 422px;
+
+    position: relative;
+}
+
+#focus ul li span {
+    position: absolute;
+    bottom: 89px;
+    right: 95px;
+    z-index: 999;
+    font-size: 28px;
+    color: #7eb400;
+    background: url(/resources_new/images/index02_more.jpg) right center
+    no-repeat;
+    padding-right: 20px;
+}
+
+#focus ul li span a {
+    font-size: 28px;
+    color: #7eb400;
+}
+
+#focus ul li div {
+    position: absolute;
+    overflow: hidden;
+}
+
+#focus .btnBg {
+    position: absolute;
+    width: 11544px;
+    height: 23px;
+    left: 0;
+    bottom: 21px;
+}
+
+#focus .btn {
+    position: absolute;
+    width: 1154px;
+    height: 13px;
+    padding: 5px 10px;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+}
+
+#focus .btn span {
+    display: inline-block;
+    _display: inline;
+    _zoom: 1;
+    width: 12px;
+    height: 12px;
+    _font-size: 0;
+    margin-left: 5px;
+    cursor: pointer;
+    background: url(/resources_new/images/index10.jpg) no-repeat;
+}
+
+#focus .btn span.on {
+    background: url(/resources_new/images/index11.jpg) no-repeat 0px center;
+}
+
+#focus .preNext {
+    width: 53px;
+    height: 422px;
+    position: absolute;
+    top: 0px;
+    cursor: pointer;
+}
+
+#focus .pre {
+    left: 0px;
+    background: url(/resources_new/images/index08.jpg) no-repeat
+}
+
+#focus .next {
+    right: 0px;
+    background: url(/resources_new/images/index09.jpg) no-repeat
+}
+
+.main_all {
+    min-width: 1154px;
+    min-height: 224px;
+    background: url(/resources_new/images/index12.jpg) top center no-repeat;
+}
+
+.main {
+    width: 996px;
+    margin: 0px auto 0px;
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+.main1 {
+    width: 325px;
+    height: 200px;
+    float: left;
+    background: #fff
+}
+
+.main1_1 {
+    float: left;
+    margin: 10px 0px 0px 15px;
+    display: inline
+}
+
+.main1_2 {
+    float: left;
+    margin: 30px 0px 0px 10px;
+    display: inline;
+    font-size: 24px;
+    color: #004a68;
+    line-height: 25px;
+}
+
+.main1_2 a {
+    font-size: 14px;
+    background: url(/resources_new/images/index22.jpg) no-repeat right
+    center;
+    padding-right: 10px;
+    color: #004a68;
+    float: right;
+    margin-top: 35px;
+    display: inline;
+    font-family: Roboto
+}
+
+.main1_2 a:hover {
+    color: #ff6600
+}
+
+.main2 {
+    width: 325px;
+    float: left;
+    margin-left: 10px;
+    display: inline
+}
+
+.main3 {
+    width: 325px;
+    float: right;
+    background: url(/resources_new/images/homeBanner_7.jpg) no-repeat;
+    height: 200px;
+}
+
+.main3_1 {
+    background: #fff;
+    width: 325px;
+    height: 96px;
+    margin-top: 55px;
+}
+
+.main3_1_1 {
+    font-size: 30px;
+    color: #3f3f3f;
+    line-height: 35px;
+    margin-top: 12px;
+    margin-left: 10px;
+    float: left;
+    display: inline;
+}
+
+.main3_1_2 {
+    width: 107px;
+    height: 96px;
+    background: #7eb400;
+    float: right;
+}
+
+.main3_1_2 a {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 25px;
+    line-height: 20px;
+    background: url(/resources_new/images/index03.jpg) right center
+    no-repeat;
+    padding-right: 25px;
+    float: left;
+    margin: 27px 0px 0px 26px;
+    display: inline
+}

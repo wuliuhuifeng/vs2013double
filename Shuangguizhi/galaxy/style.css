@@ -1,0 +1,23 @@
+﻿body { font-size:12px; font-family:宋体; color:#333; margin:4px; overflow:hidden; }
+a{ color:#009; text-decoration:none;}
+a:hover{ color:#009286; text-decoration:underline;}
+img{ border:solid 1px #eee; padding:1px;}
+table{ border:solid 1px #39867b; border-collapse:collapse; }
+.tab{ border:solid 1px #39867b;}
+th{ background-color:#39867b; margin:1px; height:26px; color:#fff;font-weight:bold; font-size:13px; }
+td{ background-color:#def0fa; height:22px; vertical-align:middle; border:solid 1px #fff; padding:0 4px;}
+th a{ text-decoration:underline; color:#fff;}
+th a:hover{ color:#e00; }
+#tdl{ text-align:left; padding:4px; vertical-align:middle;}
+#tdr{text-align:right; padding:4px 6px; vertical-align:middle; font-weight:bold; font-size:13px;}
+#tdbc{ text-align:left; padding-left:6px; font-size:13px; font-weight:bold; color:#f60;}
+#tdbc a{ color:#f60; text-decoration:underline;}
+#tableTitle{ padding:6px; background-color:#d6f3e7; font-weight:bold; text-align:center; font-size:14px; color:#39867B; border:solid 1px #39867b;}
+#price{ color:#f60;}
+#pager{ padding:6px; font-size:14px;}
+#pager span{ margin-right:8px;}
+#pager{}
+#pager .cp{ border:solid 1px #ccc; padding:3px; text-decoration:none; margin:0px;background-color:#1F3A87; color:#fff;}
+#pager a{ border:solid 1px #ccc; padding:3px; text-decoration:none; margin:0px;}
+#pager a:hover{ background-color:#1F3A87; color:#fff;}
+

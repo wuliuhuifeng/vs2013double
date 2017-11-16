@@ -1,0 +1,42 @@
+.style1 {
+	COLOR: #ff0000
+}
+.style4 {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #6d6d6d; LINE-HEIGHT: 17px
+}
+A:link {
+	COLOR: #6d6d6d; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #6d6d6d; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+.tabledown {
+	BORDER-BOTTOM: #e7e7e7 1px solid
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #97a1ad; FONT-SIZE: 9pt; SCROLLBAR-HIGHLIGHT-COLOR: #f5f9ff; SCROLLBAR-SHADOW-COLOR: #828282; SCROLLBAR-3DLIGHT-COLOR: #828282; SCROLLBAR-ARROW-COLOR: #797979; SCROLLBAR-TRACK-COLOR: #ffffff; FONT-FAMILY: ËÎÌו; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+#mytable TR {
+	
+}
+#mytable TD {
+	PADDING-LEFT: 5px
+}
+.news_content {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; LINE-HEIGHT: 150%; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+.background_top {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(../images/top_03.jpg); WIDTH: 702px; BACKGROUND-REPEAT: no-repeat
+}
+.mytitle {
+	MARGIN-TOP: 18px; PADDING-BOTTOM: 5px
+}
+.lineheight {
+	LINE-HEIGHT: 10px; HEIGHT: 12px
+}
